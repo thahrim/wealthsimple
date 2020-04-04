@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f9a818;
+  border: none;
+  border-radius: 40px;
+  /*box-shadow: 0 9px #999;*/
+}
+
+.button:hover {background-color: #efa618}
+
+.button:active {
+  /*background-color: #3e8e41;
+  box-shadow: 0 5px #666;*/
+  transform: translateY(4px);
+}
+
+h1{
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+h2{
+  background-color: rgba(240, 240, 240, 0.8);
+  margin-top: 5em;
+  padding: 1em;
+  font-weight:bold;
+}
+
+body {
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+  background-image:url("assets/splash.jpg");
+}
